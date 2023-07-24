@@ -13,12 +13,22 @@
 - `git commit -m 'message'` (변경점을 message 안에 넣음)
     - staging area 에 올라간 파일들의 스냅샷을 찍어 `.git directory` 에 저장
 
+- `git push origin master`
+    -`master` 브랜치를 원격 저장소 `origin` 으로 업로드 하는 명령어
+
 ## 설정
 
 - `git status`
     - 현재 상태를 체크하는 명령어
+
 - `git config`
+    - git 설정을 하는 명령이ㅓ
+    - 일반적으ㅗㄹ `--global` 옵션으로 최초 한번만 실행
     - `git config --global user.email 'your@email.com'`
-    - `git config --global user.email` 통해 값 확인
+        - `git config --global user.email` 통해 값 확인
     - `git config --global user.name 'yourname'`
-    - `git config --global user.name` 통해 값 확인
+        - `git config --global user.name` 통해 값 확인
+
+- `git remote`
+    - `git remote add origin <remote url>` 
+    - remote 저장소 주소를 추가하는 명령어 
