@@ -15,7 +15,7 @@
     - staging area 에 올라간 파일들의 스냅샷을 찍어 `.git directory` 에 저장
     - 일반적으로 `-m 옵션` 을 넣어서 커밋메세지를 추가하여 등록
 
-- `git push origin master`
+- `git push origin main`
     - `master` 브랜치를 원격 저장소 `origin` 으로 업로드 하는 명령어
 
 ## 설정
