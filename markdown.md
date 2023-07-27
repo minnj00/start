@@ -32,6 +32,9 @@ python에서 출력은 `print()`로 합니다.
 | 홍길동 | 서울 |
 | 이순신 | 대전 |
 
+- 백틱 
+프로그래밍 문법 맞게 키워드를 강조하는 하이라이팅(syntax highlighting)기능을 지원합니다.
+
 ```python
 print('hello')
 ```
